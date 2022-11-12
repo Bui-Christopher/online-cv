@@ -16,11 +16,11 @@ sidebar:
     phone: +1 714 474 7071
     timezone:
     citizenship:
-    website:
+    website: # christopherbui.com
     linkedin: christopher-bui125
     xing: 
     github: Bui-Christopher
-    telegram: # add your nickname without '@' sign
+    telegram: BuiChristopher125
     gitlab:
     bitbucket:
     twitter: 
@@ -59,7 +59,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a software engineer with experience in Rust and Python, and I'm working to learn and grow in the development space. I've worked with Rust micro services which utilize gRPC/protocol buffers, and automated workflows with Python scripts. <br><br>
+      I'm a software engineer with experience in Rust and Python, and I'm working to learn and grow in the development space. I've worked with Rust micro services, utilized gRPC/protocol buffers, and automated workflows with Python scripts. <br><br>
       School was always difficult, and I dropped out of college. Despite struggling, I perservered and proudly graduated with a degree in Computer Science from California State University, Fullerton. <br><br>
       During college, I studied with C/C++ and have always been interested in low level logic. I recently transitioned to Rust and fell in love with its unique memory management. My biggest passion has and always will be learning and sharing my knowledge.
 education:
@@ -84,7 +84,9 @@ experiences:
             - Implement a REST API and Rust DB driver to Cassandra for a quantum resistant messaging app
             - Index, store and query blockchain transaction history with PostgreSQL and GraphQL
             - Automate claiming vested tokens with a CronTab Python script; linking MongoDB and a blockchain
+            - Utilize gRPC and Protocol Buffer for inter micro service communication
             - Clean and migrate infrastructure to AWS while saving the company $2,000/month
+          # TODO Include twilio phone number verification?
       - role: Software Engineer Intern
         time: November 2021 - January 2022
         company: Contenda
@@ -108,7 +110,7 @@ projects:
         details: |
             - Combined react, solidity, and a custom ERC-20 for a decentralized voting application
             - Provided a method for the blockchain club to pass on board positions after graduating
-            - link here
+            - <a href="https://devpost.com/software/tuffyvotes">Published for Hackathon Review</a>
 
 associations:
     title: Associations
@@ -137,22 +139,19 @@ skills:
 
     toolset:
       - name: Rust
-        level: 85%
-
-      - name: Python
         level: 80%
 
-      - name: gRPC and protobuff
+      - name: Python
         level: 75%
 
+      - name: gRPC and protobuff
+        level: 74%
+
       - name: C++
-        level: 70%
+        level: 65%
 
-      # - name: Ruby on Rails
-      #   level: 85%
+      - name: Docker
+        level: 65%
 
-      # - name: Sketch & Photoshop
-      #   level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
