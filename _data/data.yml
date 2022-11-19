@@ -85,8 +85,6 @@ experiences:
             - Index, store and query blockchain transaction history with PostgreSQL and GraphQL
             - Automate claiming vested tokens with a CronTab Python script; linking MongoDB and a blockchain
             - Utilize gRPC and Protocol Buffer for inter micro service communication
-            - Clean and migrate infrastructure to AWS while saving the company $2,000/month
-          # TODO Include twilio phone number verification?
       - role: Software Engineer Intern
         time: November 2021 - January 2022
         company: Contenda
@@ -141,11 +139,11 @@ skills:
       - name: Rust
         level: 80%
 
-      - name: Python
+      - name: gRPC and protobuff
         level: 75%
 
-      - name: gRPC and protobuff
-        level: 74%
+      - name: Python
+        level: 72%
 
       - name: C++
         level: 65%
