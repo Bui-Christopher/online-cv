@@ -94,14 +94,14 @@ experiences:
 projects:
     title: Projects
     info:
-      - name: The Odin Project
-        time: August 2022 - Present
+      - name: Wedding RSVP/Registry
+        time: April 2023 - May 2023 
         type: Personal Project
         details: |
-            - Self taught front end development through open source curriculum
-            - Published a website composed of favorite cooking recipes with git best practices
-            - Developed a classic User vs Computer rock-paper-scissors game 
-
+            - Created a complete backend service for a wedding RSVP/Registry application
+            - Built a REST API, gRPC middleware, NGINX reverse proxy which connects to a local ScyllaDB
+            - Tagged, built, and pushed images to DockerHub, and prepared a Docker Compose 
+              
       - name: TuffixCoin CryptoCurrency
         time: March 2021 - April 2021
         type: Hackathon
