@@ -66,7 +66,7 @@ career-profile:
       I'm a software engineer with experience in Rust and Python, and I'm working to learn and grow in the development space. I've worked with Rust micro services, utilized gRPC/protocol buffers, and automated workflows with Python and bash scripts. <br><br>
       School was always difficult, and I briefly dropped out of college. Despite struggling, I persevered and proudly graduated with a degree in Computer Science from California State University, Fullerton. <br><br>
       During college, I studied with C/C++ and have always been interested in low level logic. I recently transitioned to Rust and fell in love with its unique memory management. My biggest passion has and always will be learning and sharing my knowledge.
-educatiton:
+education:
     # title: Education
     info:
       - degree: Bachelor of Science, Computer Science
@@ -141,16 +141,19 @@ skills:
 
     toolset:
       - name: Rust
-        level: 85%
-
-      - name: Python
         level: 80%
 
       - name: gRPC and protobuff
         level: 75%
 
+      - name: Python
+        level: 72%
+
       - name: C++
-        level: 70%
+        level: 65%
+
+      - name: Docker
+        level: 65%
 
       # - name: Ruby on Rails
       #   level: 85%
