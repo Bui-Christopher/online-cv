@@ -1,5 +1,10 @@
+{% assign contact = site.data.data.sidebar %}
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
+
+  <h2 class="container-block-title">
+    {{ sidebar.title }}
+  </h2>
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>

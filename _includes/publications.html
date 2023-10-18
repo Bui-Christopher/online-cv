@@ -1,30 +1,34 @@
-{% assign publications = site.data.data.publications %}
-{% if publications %}
-<section class="section publications-section">
-
+{% assign associations = site.data.data.associations %}
+{% if associations %}
+<section class="section associations-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
-    {{ publications.title }}
+    {{ associations.title }}
   </h2>
 
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
-
-  {% for publication in publications.papers %}
+  {% for association in associations.info %}
   <div class="item">
-    {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-    {% else %}
-      <li>{{ publication.title }}</li>
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ association.role }}</h3>
+        <div class="time">{{ association.time }}</div>
+      </div><!--//upper-row-->
+
+      <div class="company">{{ association.association }}</div>
+
+    </div><!--//meta-->
+
+    {% if association.details %}
+    <div class="details">
+      {{ association.details | markdownify }}
+    </div><!--//details-->
     {% endif %}
-    <div class="publication-authors">{{ publication.authors }}</div>
-    <div class="publication-conference">{{ publication.conference }}</div>
+
   </div><!--//item-->
   {% endfor %}
 
