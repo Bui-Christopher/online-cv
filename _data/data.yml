@@ -60,10 +60,10 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a backend, software engineer with most of my professional experience within startups! Initially, school was difficult, and I briefly dropped out of college.
+      I'm a hybrid backend/devops engineer with most of my professional experience within startups! Initially, school was difficult, and I briefly dropped out of college.
       Despite struggling, I persevered and proudly graduated with a degree in Computer Science from California State University, Fullerton. <br><br>
 
-      During college, I studied with C/C++ and have always been interested in embedded systems and low level logic. Thus, I transitioned to Rust and fell in love with its safety and unique memory management.
+      During college, I studied in C/C++ and have always been interested in embedded systems and low level languages. Thus, I transitioned to Rust and fell in love with its safety and unique memory management.
       I've worked with dockerized microservices, and utilized bash and python scripts to automate their CI/CD workflows. Additionally, these microservices have been deployed with technologies such as Helm and Kubernetes 
       onto Amazon Web Services and Google Cloud Platform. <br><br>
 
@@ -77,7 +77,7 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Software Engineer
+      - role: Backend/DevOps Engineer
         time: May 2022 - Present
         company: Crown Sterling
         details: |
@@ -114,6 +114,18 @@ experiences:
 projects:
     title: Projects
     info:
+      - title: Homie, Dataset Visualizer
+        time: March 2024 - Present
+        type: Personal Project
+        details: |
+            - Web application interactive tool to analyze housing markets from Zillow API, Federal H15, and Federal HPI
+            - Deploy a full stack application composed of a RESTful API and a server-side rendered front end
+                - Entirely in Rust!
+                  - Leptos, Tokio, Axum SQLx
+            - Read from CSV files and public APIs and write to a database
+                - Postgres
+            - Design reusable, architectural patterns such as dependency injection, hexagonal, microservice, and repository
+
       - title: MicroBit Microcontroller
         time: January 2024 - February 2024 
         type: Personal Project
