@@ -43,7 +43,7 @@ Changes *_data/data.yml* will be visible after a while.
 
 ### Local machine
 
-* Get the repo into your machine 
+* Get the repo into your machine
 
 ```bash
 git clone https://github.com/sharu725/online-cv.git
@@ -87,4 +87,3 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sharu725/online-cv&type=Date)](https://star-history.com/#sharu725/online-cv&Date)
-

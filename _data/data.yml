@@ -46,13 +46,16 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Microcontrollers and IoT 
+        - item: Microcontrollers and IoT
           link:
 
         - item: SRE/DevOps/Platform Engineering
           link:
 
-        - item: Open Source Tools
+        - item: AI/ML
+          link:
+
+        - item: Open Source
           link:
 
 # I'm a software engineer with experience in Rust and Python, and I'm working to learn and grow in the development space. I've worked with Rust micro services, utilized gRPC/protocol buffers, and automated workflows with Python and bash scripts. <br><br>
@@ -60,14 +63,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a hybrid backend/devops engineer with most of my professional experience within startups! Initially, school was difficult, and I briefly dropped out of college.
-      Despite struggling, I persevered and proudly graduated with a degree in Computer Science from California State University, Fullerton. <br><br>
+      I'm a versatile backend/devops engineer with extensive experience within startup environments! Although I initially struggled in school and briefly dropped out of college, I persevered and proudly earned a
+      degree in Computer Science from California State University, Fullerton. <br><br>
 
-      During college, I studied in C/C++ and have always been interested in embedded systems and low level languages. Thus, I transitioned to Rust and fell in love with its safety and unique memory management.
-      I've worked with dockerized microservices, and utilized bash and python scripts to automate their CI/CD workflows. Additionally, these microservices have been deployed with technologies such as Helm and Kubernetes 
-      onto Amazon Web Services and Google Cloud Platform. <br><br>
+      My academic journey introduced me to C/C++ and sparked my interest in embedded systems and low level languages. This passion led me to Rust, where I've embraced its safety features and unique memory management.
+      Currently, I'm focused on containerized microservices leveraging Docker, bash and Python for CI/CD automation. Additionally, these microservices are deployed using Helm and Kubernetes onto Amazon Web Services and Google Cloud Platform. <br><br>
 
-      I enjoy exploring new technologies and find new skills refreshing and invigorating. My biggest passion has and always will be learning and sharing my knowledge.
+      I'm also dedicated on honing my Linux skills through working with NixOS and Arch, while exploring personal projects in Rust. Continuously learning and sharing knowledge is my greatest passion and I find it refreshing and invigorating to dive into new challenges. <br><br>
 education:
     title: Education
     info:
@@ -82,35 +84,28 @@ experiences:
         company: Crown Sterling
         details: |
             - Connect REST, HTTP APIs, adapters, and a database for a messaging app
-                - Cassandra/MongoDB/Elasticsearch
-                - Rust
-            - Create a backend broker service to handle PubSub messages 
-                - Firebase Cloud Messaging
-                - MemoryStore/Redis
+                - Rust, Cassandra, MongoDB, Elasticsearch
+            - Create a backend broker service to handle PubSub messages
+                - Firebase Cloud Messaging, MemoryStore/Redis
             - Utilize protocol buffers for inter micro service communication
-                - Protocol Buffers and gRPC
-                - Docker
+                - Protocol Buffers, gRPC
             - Deploy and push containers/images onto GCP and AWS
-                - Kubernetes
-                - Helm
+                - Kubernetes/Helm/Terraform
             - Index, store and query blockchain transaction history
-                - PostgreSQL
-                - GraphQL
+                - GraphQL, PostgreSQL
             - Automate a CI/CD pipeline
-                - CircleCI/GitHub Actions
-                - Bash
+                - Bash, CircleCI, GitHub Actions
             - Automate claiming vested tokens
-                - Linux Crontab
-                - Python
+                - Python, Crontab
 
       - role: Software Engineer Intern
         time: November 2021 - January 2022
         company: Contenda
         details: |
-            - Automated an upload/download YouTube workflow with EC2, S3, and DynamoDB
-                - Python
+            - Automated an upload/download YouTube workflow
+                - Python, Linux, HTTP APIs
             - Trained and updated custom language models for transcription accuracy and jargon-specific speech
-                - AWS
+                - EC2, S3, DynamoDB
 projects:
     title: Projects
     info:
@@ -118,45 +113,43 @@ projects:
         time: March 2024 - Present
         type: Personal Project
         details: |
-            - Web application interactive tool to analyze housing markets from Zillow API, Federal H15, and Federal HPI
-            - Deploy a full stack application composed of a RESTful API and a server-side rendered front end
-                - Entirely in Rust!
-                  - Leptos, Tokio, Axum SQLx
-            - Read from CSV files and public APIs and write to a database
-                - Postgres
+            - Interactive web app to analyze housing markets from Zillow API, Federal H15, and Federal HPI
+                - Link: <a href="https://github.com/Bui-Christopher/homie">GitHub Repository</a>
+            - Deploy a full stack application composed of a RESTful API, PostgreSQL Database, and a server-side rendered front end
+                - Leptos, Tokio, Axum SQLx
             - Design reusable, architectural patterns such as dependency injection, hexagonal, microservice, and repository
+            - Integrate CSV datasets into data pipelines, optimizing data ingestion and storage in a PostgreSQL database
 
       - title: MicroBit Microcontroller
-        time: January 2024 - February 2024 
+        time: January 2024 - February 2024
         type: Personal Project
         details: |
-            - Build, debug, and flash an embedded Microcontroller
-                - C/Rust
-                - GDB
-            - Display icons with a blinking and a time sensitive LED matrix
+            - Built, debugged, and flashed an embedded Microcontroller
+                - C/Rust (no_std)
                 - MicroBit, ARM, Cortex-M
-                - embedded-HAL
+            - Interfaced with various sensors and communication protocols
+                - Accelerometer, Magnetometer, LED matrix
+                - GDB, UART, I2C, and SPI
 
       - title: Wedding RSVP/Registry
-        time: April 2023 - May 2023 
+        time: April 2023 - May 2023
         type: Personal Project
         details: |
             - Created a complete backend service for a wedding RSVP/Registry application
+                - Link: <a href="https://github.com/Bui-Christopher/wedding-planner">GitHub Repository</a>
             - Connected REST HTTP APIs, adapter middlewares, a database, and a reverse proxy
+                - ScyllaDB, NGINX
             - Tagged, built, and pushed images to DockerHub
-            - Link: <a href="https://github.com/Bui-Christopher/wedding-planner">GitHub Repository</a>
-                - ScyllaDB
-                - NGINX
-              
+                - Bash, Docker, GitHub Actions
+
       - title: TuffixCoin CryptoCurrency
         time: March 2021 - April 2021
         type: Hackathon
         details: |
             - Deployed a decentralized voting application
+                - Link: <a href="https://devpost.com/software/tuffyvotes">Hackathon Review</a>
             - Provided a method for the blockchain club to pass on board positions after graduating
-            - Link: <a href="https://devpost.com/software/tuffyvotes">Hackathon Review</a>
-                - Custom ERC-20
-                - React/Solidity
+                - React, Solidity, ERC-20
 
 associations:
     title: Associations
